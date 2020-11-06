@@ -1,4 +1,5 @@
- notes as follow：
+notes as follow：
+
 import tensorflow as tf
 tf.compat.v1.disable_eager_execution()
 a = tf.constant('Hello, TensorFlow!')
@@ -6,13 +7,9 @@ sess = tf.compat.v1.Session()
 print(sess.run(a))
 sess.close()
 
-
-
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
-
 tf.compat.v1.
-
 #将图片化为32*21的
 img = img.resize((32, 32))
 #二值化
